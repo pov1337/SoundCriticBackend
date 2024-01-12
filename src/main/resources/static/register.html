@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main/register.css">
+    <title>Регистрация</title>
+</head>
+<body>
+<section class="register">
+    <div class="container">
+        @@include("../parts/header.html")
+        <div class="register__wrapper">
+            <div class="register__title">Зарегистрируйтесь</div>
+            <form action="#" class="feed-form">
+                <input name="username" required type="text", placeholder="Введите логин">
+                <input name="email" required type="email", placeholder="Введите e-mail">
+                <input name="password" required type="password", placeholder="Введите пароль">
+                <input name="second_password" required type="password", placeholder="Подтвердите пароль">
+                <button class="btn">Войти</button>
+            </form>
+            
+            <div class="register__text">
+                <div class="register__descr">Уже зарегистрированы?</div>
+                <a href="../html/login.html" class="register__link">Войти</a>
+            </div>
+        </div>
+    </div>
+<hr>
+    @@include("../parts/footer.html")
+    </section>
+</body>
+</html>
