@@ -1,4 +1,4 @@
-package ru.pet.soundcritic.controllers;
+package ru.pet.soundcritic.configures;
 
 
 import org.springframework.context.annotation.Configuration;
@@ -6,7 +6,7 @@ import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
-public class SoundCriticControllerConfig implements WebMvcConfigurer {
+public class SoundCriticConfig implements WebMvcConfigurer {
 
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/home").setViewName("home");
